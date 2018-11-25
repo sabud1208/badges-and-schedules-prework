@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
     attendees.each do |room|
-    "Hello, #{room}!, You'll be assigned to room #{attendees}!"
+  puts  "Hello, #{room}!, You'll be assigned to room #{attendees}!"
 end
 end
 
