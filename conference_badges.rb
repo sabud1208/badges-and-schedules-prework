@@ -13,12 +13,9 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
-      num=0
-while num < attendees do
-  room_assignments = "Hello #{attendees[num]}, You'll be assigned to room #{num+1}. "
-   num += 1
-   end
-   room_assignments
+    room_assignments= 0
+    puts "Hello #{attendees}!, You'll be assigned to room #{room_assignments}."
+    room_assignments += 1
 end
 
 def printer(speakers)
