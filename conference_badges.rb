@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
       num=0
-while num < speakers.each do
+while num < attendees.each do
   room_assignments = "Hello #{attendees[num]}, You'll be assigned to room #{num+1}. "
    num += 1
    end
