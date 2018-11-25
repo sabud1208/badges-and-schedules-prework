@@ -14,11 +14,12 @@ end
 
 def assign_rooms(attendees, room_assignments)
    attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-   room_assignments= 0
+   room= 0
     attendees.map do
-    puts "Hello #{attendees(room_assignments)}!, You'll be assigned to room #{room_assignments}."
-    room_assignments += 1
+    room_assignments= "Hello #{attendees(room)}!, You'll be assigned to room #{room}."
+    room += 1
 end
+room_assignments
 end
 
 def printer(speakers)
