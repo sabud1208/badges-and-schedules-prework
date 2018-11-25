@@ -12,7 +12,7 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(attendees)
+def assign_rooms(attendees, room_assignments)
    attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    room_assignments= 0
     attendees.map do
