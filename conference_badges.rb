@@ -15,9 +15,10 @@ end
 def assign_rooms(speakers)
       num=0
 while num < speakers.length do
-  "Hello #{speakers[num]}, your room number is #{num+1}. "
+  room_assignments = "Hello #{speakers[num]}, You'll be assigned to room #{num+1}. "
    num += 1
    end
+   room_assignments
 end
 
 def printer(speakers)
