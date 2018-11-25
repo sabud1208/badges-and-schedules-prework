@@ -16,7 +16,7 @@ def assign_rooms(attendees)
    attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    room_assignments= 0
     attendees.map do
-    puts "Hello #{attendees}!, You'll be assigned to room #{room_assignments}."
+    puts "Hello #{attendees(room_assignments)}!, You'll be assigned to room #{room_assignments}."
     room_assignments += 1
 end
 end
