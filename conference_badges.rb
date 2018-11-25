@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
    room_assignments= 0
-    attendees.map do 
+    attendees.map do
     puts "Hello #{attendees}!, You'll be assigned to room #{room_assignments}."
     room_assignments += 1
 end
