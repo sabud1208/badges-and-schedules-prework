@@ -14,7 +14,7 @@ end
 
 def assign_rooms(attendees)
     attendees.map do |room|
-    "Hello, #{room}!, You'll be assigned to room #{attendees}!"
+    "Hello, #{room}!, You'll be assigned to room #{attendees.collect}!"
 end
 end
 
