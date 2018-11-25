@@ -18,8 +18,8 @@ def assign_rooms(attendees)
     attendees.map do
     room_assignments= "Hello #{attendees(room)}!, You'll be assigned to room #{room}."
     room += 1
+    room_assignments
 end
-puts room_assignments
 end
 
 def printer(speakers)
