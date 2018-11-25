@@ -4,18 +4,18 @@ end
 
 
 
-speakers= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_badge_creator(speakers)
-   speakers.map do |badge|
+def batch_badge_creator(attendees)
+   attendees.map do |badge|
    "Hello, my name is #{badge.chomp}."
   end
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
       num=0
 while num < speakers.each do
-  room_assignments = "Hello #{speakers[num]}, You'll be assigned to room #{num+1}. "
+  room_assignments = "Hello #{attendees[num]}, You'll be assigned to room #{num+1}. "
    num += 1
    end
    room_assignments
