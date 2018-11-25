@@ -12,13 +12,12 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(room)
+def assign_rooms(attendees)
    attendees= ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
    room= 0
     attendees.map do
     room_assignments= "Hello #{attendees(room)}!, You'll be assigned to room #{room}."
     room += 1
-    room_assignments
 end
 end
 
@@ -27,4 +26,4 @@ def printer(speakers)
   puts assign_rooms(speakers)
 end
 
-assign_rooms
+assign_rooms(attendees)
