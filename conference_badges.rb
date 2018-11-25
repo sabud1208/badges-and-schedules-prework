@@ -19,7 +19,7 @@ def assign_rooms
     room_assignments= "Hello #{attendees(room)}!, You'll be assigned to room #{room}."
     room += 1
 end
-room_assignments
+puts room_assignments
 end
 
 def printer(speakers)
